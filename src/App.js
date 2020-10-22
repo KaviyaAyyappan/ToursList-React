@@ -6,7 +6,8 @@ const url = 'https://course-api.netlify.app/api/react-tours-project';
 function App() {
   const [loading,setLoading] = useState(true);
   const [tours,setTours] = useState([]);
-
+  
+//fetching the data and providing the condition
   const fetchTours= async () => {
     setLoading(true);
     try
